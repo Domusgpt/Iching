@@ -1,0 +1,30 @@
+$ cd /path/to/your/project
+$ git init
+Initialized empty Git repository in /path/to/your/project/.git/
+
+$ git remote add origin https://github.com/your-username/frequency-golems-iching.git
+
+$ git add .
+
+$ git commit -m "Initial commit"
+[master (root-commit) abc1234] Initial commit
+ 10 files changed, 100 insertions(+)
+ create mode 100644 pages/index.js
+ create mode 100644 pages/fortune.js
+ create mode 100644 pages/secret.js
+ create mode 100644 pages/api/validatePassword.js
+ create mode 100644 styles/globals.css
+ create mode 100644 package.json
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+
+$ git push -u origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 1.23 KiB | 1.23 MiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0)
+To https://github.com/your-username/frequency-golems-iching.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
